@@ -1,0 +1,52 @@
+// AuthTypes
+export const REGISTER_SUCCESS = 'REGISTER_SUCCESS';
+export const REGISTER_FAIL = 'REGISTER_FAIL';
+export const USER_LOADED = 'USER_LOADED';
+export const AUTH_ERROR = 'AUTH_ERROR';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAIL = 'LOGIN_FAIL';
+export const LOGOUT = 'LOGOUT';
+export const CLEAN_ERRORS = 'CLEAN_ERRORS';
+
+// AlertTypes
+export const SET_ALERT = 'SET_ALERT';
+export const REMOVE_ALERT = 'REMOVE_ALERT';
+export const CONTACT_ERROR = 'CONTACT_ERROR';
+export const HOSPITAL_ERROR = 'HOSPITAL_ERROR';
+export const DOCTOR_ERROR = 'DOCTOR_ERROR';
+
+// ContactTypes
+export const GET_CONTACTS = 'GET_CONTACTS';
+export const ADD_CONTACT = 'ADD_CONTACT';
+export const DELETE_CONTACT = 'DELETE_CONTACT';
+export const SET_CURRENT = 'SET_CURRENT';
+export const CLEAR_CURRENT = 'CLEAR_CURRENT';
+export const UPDATE_CONTACT = 'UPDATE_CONTACT';
+export const FILTER_CONTACTS = 'FILTER_CONTACTS';
+export const CLEAR_CONTACTS = 'CLEAR_CONTACTS';
+export const CLEAR_FILTER = 'CLEAR_FILTER';
+
+// HospitalTypes
+export const GET_HOSPITALS = 'GET_HOSPITALS';
+export const ADD_HOSPITAL = 'ADD_HOSPITAL';
+export const DELETE_HOSPITAL = 'DELETE_HOSPITAL';
+export const SET_CURRENT_HOSPITAL = 'SET_CURRENT_HOSPITAL';
+export const CLEAR_CURRENT_HOSPITAL = 'CLEAR_CURRENT_HOSPITAL';
+export const UPDATE_HOSPITAL = 'UPDATE_HOSPITAL';
+export const FILTER_HOSPITALS = 'FILTER_HOSPITALS';
+export const CLEAR_HOSPITALS = 'CLEAR_HOSPITALS';
+export const CLEAR_FILTER_HOSPITAL = 'CLEAR_FILTER_HOSPITAL';
+export const REMOVE_DOCTOR = 'REMOVE_DOCTOR';
+
+// DoctorTypes
+export const GET_DOCTORS = 'GET_DOCTORS';
+export const GET_DOCTOR = 'GET_DOCTOR';
+export const ADD_DOCTOR = 'ADD_DOCTOR';
+export const DELETE_DOCTOR = 'DELETE_DOCTOR';
+export const SET_CURRENT_DOCTOR = 'SET_CURRENT_DOCTOR';
+export const CLEAR_CURRENT_DOCTOR = 'CLEAR_CURRENT_DOCTOR';
+export const UPDATE_DOCTOR = 'UPDATE_DOCTOR';
+export const FILTER_DOCTORS = 'FILTER_DOCTORS';
+export const CLEAR_DOCTORS = 'CLEAR_DOCTORS';
+export const CLEAR_FILTER_DOCTOR = 'CLEAR_FILTER_DOCTOR';
+export const ASSIGN_DOCTOR = 'ASSIGN_DOCTOR';
